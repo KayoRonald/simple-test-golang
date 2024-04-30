@@ -2,10 +2,10 @@ package main
 
 import (
 	"fmt"
-	endereco "simple-test/src"
+	enderecos "simple-test/src/endereco"
 )
 
 func main() {
-	rua := endereco.TipoDeEndereco("avenida Paulista")
+	rua := enderecos.TipoDeEndereco("avenida Paulista")
 	fmt.Println(rua)
 }
